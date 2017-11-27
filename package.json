@@ -4,15 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel source --out-dir built",
-	"execute": "node built"
+    "test": "mocha tests",
+    "build": "babel source --out-dir built"
   },
   "author": "",
-  "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-plugin-external-helpers": "^6.22.0",
-    "babel-preset-env": "^1.6.1"
+    "babel-preset-env": "^1.6.1",
+    "mocha": "^4.0.1"
   }
 }
